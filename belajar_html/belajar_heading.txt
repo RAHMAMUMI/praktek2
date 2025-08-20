@@ -10,5 +10,5 @@
         <h4> ini judul level 4<h4>
         <h5> ini judul level 5<h5>
         <h6> ini judul level 6<h6>
-    <body>
+        </body>
 </html>

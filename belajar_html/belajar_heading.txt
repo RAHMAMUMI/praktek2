@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>tutorial heading di html</title>
+    </head>
+    <body>
+        <h1> ini judul level 1</h1>
+        <h2> ini judul level 2</h2>
+        <h3> ini judul level 3<h3>
+        <h4> ini judul level 4<h4>
+        <h5> ini judul level 5<h5>
+        <h6> ini judul level 6<h6>
+    <body>
+</html>

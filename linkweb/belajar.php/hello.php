@@ -1,5 +1,6 @@
 <?php
 echo "Hello World!<br>";
+echo "Biodata<br>";
 echo  "Nama:Rahma Mulia Lestari<br>"; 
 echo  "Tempat Tanggal Lahir:Bandung 21-05-2008<br>";
 echo  "agama:Islam<br>";

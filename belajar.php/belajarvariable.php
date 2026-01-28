@@ -24,3 +24,4 @@ echo "Umur: $umur tahun<br>";
 echo "berat badan: $berat kg<br>";
 echo "tinggi badan: $tinggi cm<br>";
 echo "menikah: $menikah";
+?>

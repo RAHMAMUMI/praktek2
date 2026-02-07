@@ -1,6 +1,6 @@
 <?php
 
-$umur = 16;
+$umur = 21;
 $menikah = false;
 
 if($umur > 18){

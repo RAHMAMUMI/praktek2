@@ -1,6 +1,6 @@
 <?php
 
-$nilai = 95;
+$nilai = 98;
 
 if ($nilai > 90) {
     $grade = "A+";

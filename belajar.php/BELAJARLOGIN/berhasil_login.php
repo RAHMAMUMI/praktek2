@@ -8,7 +8,7 @@ if (!isset($_SESSION['username'])) {
 ?>
 
 <form action="logout.php" method="POST" class="login-email">
-    <h1>Selamat datang,Rahma <?php echo $_SESSION['username']; ?>!</h1>
+    <h1>Selamat datang, <?php echo $_SESSION['username']; ?>!</h1>
     <div class="input-group">
         <button type="submit" class="btn">Logout</button>
     </div>

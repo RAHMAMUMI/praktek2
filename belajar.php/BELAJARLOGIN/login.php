@@ -5,7 +5,7 @@ if (isset($_SESSION['username'])) {
     header("Location: berhasil_login.php");
     exit();
 } else if (isset($_POST['submit'])) {
-    $username_benar ="Rahma";
+    $username_benar ="rahma";
     $password_benar = hash('sha256', "ama123");
     $username = $_POST['username'];
     $password = hash('sha256', $_POST['password']); // Hash the input password using SHA-256
@@ -25,4 +25,3 @@ if (isset($_SESSION['username'])) {
 }
 
 
-?>

@@ -1,0 +1,215 @@
+body{
+    margin:0;
+    padding:20px;
+
+    font-family:'Poppins',sans-serif;
+
+    text-align:center;
+
+    background-image:url('bg1.png');
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    min-height:100vh;
+}
+
+/* JUDUL */
+h1{
+    color:#0f3c78;
+    font-size:55px;
+    margin-top:20px;
+    margin-bottom:10px;
+    text-shadow:0 4px 10px rgba(255,255,255,0.8);
+}
+
+h2{
+    color:#1f7ed6;
+    margin-bottom:25px;
+}
+
+/* STIKER */
+.stiker1{
+    position:fixed;
+    left:20px;
+    top:20px;
+    font-size:40px;
+}
+
+.stiker2{
+    position:fixed;
+    right:20px;
+    top:20px;
+    font-size:40px;
+}
+
+/* CARD */
+.card{
+    display:inline-block;
+
+    background:rgba(255,255,255,0.92);
+
+    padding:25px;
+
+    margin:15px;
+
+    border-radius:28px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.15);
+}
+
+/* FOTO */
+.foto{
+    width:120px;
+    height:120px;
+
+    object-fit:cover;
+
+    border-radius:25px;
+
+    border:4px solid #8ecbff;
+
+    margin-bottom:10px;
+}
+
+/* BUTTON */
+button{
+    padding:13px 28px;
+
+    border:none;
+
+    border-radius:20px;
+
+    background:linear-gradient(to right,#4da6ff,#007bff);
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    box-shadow:0 5px 15px rgba(0,123,255,0.2);
+}
+
+button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(0,123,255,0.3);
+}
+
+/* DESKRIPSI */
+deskripsi{
+
+    width:80%;
+
+    margin:auto;
+
+    margin-top:25px;
+
+    padding:30px;
+
+    border-radius:30px;
+
+    background:rgba(255,255,255,0.75);
+
+    backdrop-filter:blur(8px);
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+.deskripsi h3{
+    color:#0f3c78;
+    font-size:30px;
+}
+
+.deskripsi p{
+    color:#444;
+    font-size:17px;
+    line-height:1.8;
+}
+
+/* TABEL */
+table{
+    width:95%;
+
+    margin:auto;
+
+    margin-top:25px;
+
+    border-collapse:collapse;
+
+    overflow:hidden;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,0.85);
+
+    backdrop-filter:blur(5px);
+
+    box-shadow:0 8px 18px rgba(0,0,0,0.08);
+}
+
+/* HEADER */
+th{
+
+    background:linear-gradient(to right,#5ec8ff,#268dff);
+
+    color:white;
+
+    padding:16px;
+
+    font-size:17px;
+}
+
+/* ISI */
+td{
+    padding:14px;
+
+    text-align:center;
+
+    border-bottom:1px solid #ddd;
+
+    background:white;
+}
+
+/* HOVER */
+tr:hover{
+    background:#eef7ff;
+    transition:0.3s;
+}
+
+/* LINK */
+a{
+    text-decoration:none;
+
+    color:#1f7ed6;
+
+    font-weight:bold;
+}
+
+a:hover{
+    color:#0056b3;
+}
+
+/* FOOTER */
+footer{
+    margin-top:30px;
+
+    color:#0f3c78;
+
+    font-weight:bold;
+
+    font-size:16px;
+}

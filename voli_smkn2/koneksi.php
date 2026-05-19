@@ -2,13 +2,13 @@
 
 $conn = mysqli_connect(
 "localhost",
-"dualimaduaenam",
-"PASSWORD_HOSTING",
+"2526_05",
+"12345678",
 "2526_05db"
 );
 
 if(!$conn){
-die("Koneksi gagal");
+die("Koneksi gagal: " . mysqli_connect_error());
 }
 
 ?>

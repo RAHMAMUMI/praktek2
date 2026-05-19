@@ -2,8 +2,8 @@
 
 $conn = mysqli_connect(
 "localhost",
-"root",
-"",
+"dualimaduaenam",
+"PASSWORD_HOSTING",
 "2526_05db"
 );
 

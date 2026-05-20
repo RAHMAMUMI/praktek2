@@ -144,7 +144,7 @@ button:hover{
 
 <h1>🏐 Tambah Anggota</h1>
 
-<form method="POST"> action="tambah.php">
+<form method="POST" action="tambah.php">
 
 <input type="text" name="nama" placeholder="Nama Lengkap" required>
 

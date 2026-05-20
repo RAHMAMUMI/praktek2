@@ -10,11 +10,10 @@ if(isset($_POST['tambah'])){
     $jabatan = $_POST['jabatan'];
     $alamat = $_POST['alamat'];
 
-    mysqli_query($conn,"INSERT INTO anggota
-(id, nama, kelas, posisi, jabatan, jenis_kelamin, alamat)
+    $query = mysqli_query($conn,"INSERT INTO anggota
+(nama, kelas, posisi, jabatan, jenis_kelamin, alamat)
 
 VALUES(
-'',
 '$nama',
 '$kelas',
 '$posisi',

@@ -1,7 +1,7 @@
 <?php
 include 'koneksi.php';
 
-if(isset($_POST['submit'])){
+if(isset($_POST['tambah'])){
 
     $nama = $_POST['nama'];
     $kelas = $_POST['kelas'];
@@ -245,7 +245,7 @@ button:hover{
 
 <textarea name="alamat" placeholder="Alamat"></textarea>
 
-<button type="submit" name="submit">
+<button type="submit" name="tambah">
 SIMPAN 💙
 </button>
 

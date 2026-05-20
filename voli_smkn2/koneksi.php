@@ -3,7 +3,7 @@
 $conn = mysqli_connect(
 "localhost",
 "2526_05",
-"123tjktok",
+"2526tjktok",
 "2526_05db"
 );
 

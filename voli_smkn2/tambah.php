@@ -22,6 +22,12 @@ VALUES(
 '$alamat'
 )");
 
+if(!$query){
+    die(mysqli_error($conn));
+}
+
+echo "berhasil";
+
     header("Location: dashboard.php");
 }
 ?>
